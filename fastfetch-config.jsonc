@@ -1,0 +1,43 @@
+// /Users/cesaralvarez/.config/fastfetch/config.jsonc
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+      "type": "auto",        // Logo type: auto, builtin, small, file, etc.
+      "source": "/Users/cesaralvarez/Documents/ascii/snorlax.txt",      // Built-in logo name or file path
+      "padding": {
+          "top": 1,          // Top padding
+          "left": 0,         // Left padding
+          "right": 2         // Right padding
+      },
+      "color": {             // Override logo colors
+          "1": "magenta",
+          "2": "green"
+      }
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "de",
+    "wm",
+    "wmtheme",
+    "theme",
+    "icons",
+    "font",
+    "terminal",
+    "terminalfont",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "battery",
+    "poweradapter",
+    "break",
+    "colors"
+  ]
+}
